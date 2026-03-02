@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background-color: #ffffff;
+}
+
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    border-bottom: 1px solid #eee;
+}
+
+.brand {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+
+.main-section {
+    padding: 40px 60px;
+}
+
+
+.intro {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.intro-text h1 {
+    font-size: 48px;
+    font-weight: 300;
+}
+
+.intro-name {
+    font-size: 22px;
+    margin: 15px 0;
+}
+
+.intro-name span {
+    font-weight: 600;
+}
+
+.intro-image img {
+    width: 300px;
+    border-radius: 8px;
+}
+
+
+.blog-section {
+    max-width: 800px;
+}
+
+.post {
+    margin-bottom: 30px;
+}
+
+.post h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+.comments {
+    margin-top: 50px;
+}
+
+
+.site-footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #eee;
+    margin-top: 50px;
+}
+
+
+@media (max-width: 768px) {
+    .site-header,
+    .main-section {
+        padding: 20px;
+    }
+
+    .intro {
+        flex-direction: column;
+        text-align: center;
+    }
+}

@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.todo-box {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+input, button {
+    padding: 8px;
+    margin: 5px;
+}
+
+.filters {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    max-width: 400px;
+    margin: auto;
+}
+
+li {
+    background: white;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}

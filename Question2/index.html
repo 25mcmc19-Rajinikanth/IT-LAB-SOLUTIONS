@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    
+    <title>Rajanikanth | Personal Blog</title>
+    <meta name="description" content="Personal blog of Rajanikanth sharing learning, coding journey and life experiences">
+    <meta name="keywords" content="personal blog, MCA, HTML, CSS, learning">
+    <meta name="author" content="Rajanikanth">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+   
+    <header class="site-header">
+        <div class="logo">
+            <span class="brand">Rajanikanth</span>
+        </div>
+
+        <nav class="nav">
+            <a href="#">Home</a>
+            <a href="#">Blog</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    
+    <main class="main-section">
+
+        
+        <section class="intro">
+            <div class="intro-text">
+                <h1>Hey there!</h1>
+                <p class="intro-name">Hi, I’m <span>Rajanikanth</span></p>
+                <p>
+                    I am an MCA student passionate about web development, backend technologies,
+                    and continuous learning. This blog shares my journey and experiences.
+                </p>
+            </div>
+
+            <div class="intro-image">
+                
+                <img src="images/profile.jpg" alt="My Photo">
+            </div>
+        </section>
+
+        
+        <section class="blog-section">
+            <article class="post">
+                <h2>Why I Started This Blog</h2>
+                <p>
+                    I created this blog to document my learning journey in HTML, CSS, Java,
+                    and modern web technologies. Writing helps me understand concepts better.
+                </p>
+            </article>
+
+            <article class="post">
+                <h2>My Learning Focus</h2>
+                <p>
+                    Currently, I am focusing on full-stack development, problem-solving,
+                    and building real-world projects to strengthen my skills.
+                </p>
+            </article>
+        </section>
+
+        
+        <section class="comments">
+            <h3>Comments</h3>
+            <div id="disqus_thread"></div>
+        </section>
+
+    </main>
+
+    
+    <footer class="site-footer">
+        <p>© 2026 Rajanikanth | Personal Blog</p>
+    </footer>
+
+    
+    <script>
+        (function () {
+            var d = document, s = d.createElement('script');
+            s.src = 'https://rajinikanth_blog.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+
+</body>
+</html>

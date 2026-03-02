@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <book>
+        <title>Maha Prasthanam</title>
+        <author>Srirangam Srinivasa Rao</author>
+        <genre>Revolutionary</genre>
+        <price>550</price>
+        <publish_date>1950-01-10</publish_date>
+    </book>
+
+    <book>
+        <title>Amuktamalyada</title>
+        <author>Krishnadevaraya</author>
+        <genre>Classical Epic Poetry</genre>
+        <price>650</price>
+        <publish_date>2019-05-12</publish_date>
+    </book>
+
+    <book>
+        <title>Barrister Parvateesam</title>
+        <author>Mokkapati Narasimha Sastry</author>
+        <genre>Comedy / Novel</genre>
+        <price>350</price>
+        <publish_date>1924-07-20</publish_date>
+    </book>
+
+    <book>
+        <title>Wings of Fire</title>
+        <author>A.P.J Abdul Kalam</author>
+        <genre>Biography</genre>
+        <price>400</price>
+        <publish_date>2011-03-15</publish_date>
+    </book>
+
+    <book>
+        <title>Ramayanam</title>
+        <author>Gona Budda Reddy</author>
+        <genre>Epic / Mythology</genre>
+        <price>450</price>
+        <publish_date>13th century</publish_date>
+    </book>
+</catalog>
